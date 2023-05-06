@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Converso de temperatura</h1>
+    <p>De</p>
+    <select name="type" id="type">
+        <option value="c">Celcius</option>
+        <option value="f">Fahrenheit</option>
+        <option value="k">Kelvin</option>
+
+    </select>
+    <p>Para</p><select name="type" id="type2">
+        <option value="c">Celcius</option>
+        <option value="f">Fahrenheit</option>
+        <option value="k">Kelvin</option>
+    </select>
+    <input type="number" name="number" id="number" placeholder="Put your temperature">
+    <input type="button" id="button" value="Calcular" onclick="calcular()">
+    <h2 id="res"></h2>
+    <script src="script.js"></script>
+</body>
+</html>
