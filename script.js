@@ -7,9 +7,6 @@ function calcular() {
     if(type2 == type){
         window.alert("Por favor ponha temperaturas diferentes")
     }
-    else if(number == 0 ){
-       window.alert("Por favor digite um numer")
-    }
     else if( type == "c" && type2 == "f"){
         var result = (number * 1.8) + 32;
         res.innerHTML = result.toFixed(2) + "°F"
